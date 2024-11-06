@@ -28,6 +28,7 @@ public class Main {
         System.out.println("Price after Loyalty discount : " + customerOne.applyDiscount(orderOne));
 
         Order orderTwo = new Order();
+        chilidog = new Cheese(chilidog);
         orderTwo.addItem(chilidog);
         orderTwo.showOrderItems();
         System.out.println("Subtotal : " + orderTwo.getTotalCost());

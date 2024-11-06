@@ -3,6 +3,7 @@ import CustomerLoyaltyTests.CustomerLoyaltyTest;
 import FoodDecoratorTest.FoodDecoratorTest;
 
 import FoodToppingTests.FoodToppingTest;
+import OrderTests.OrderTest;
 import org.junit.platform.suite.api.SelectClasses;
 import org.junit.platform.suite.api.Suite;
 
@@ -12,7 +13,8 @@ import org.junit.platform.suite.api.Suite;
         FoodDecoratorTest.class,
         BaseFoodTest.class,
         FoodToppingTest.class,
-        CustomerLoyaltyTest.class
+        CustomerLoyaltyTest.class,
+        OrderTest.class
         }) public class CompleteRestaurantUnitTest {}
 
 
